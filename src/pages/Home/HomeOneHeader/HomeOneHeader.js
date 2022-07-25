@@ -38,14 +38,15 @@ const HomeOneHeader = () => {
                                  <li>
                                     <a href="mailto:info@consulting.com">
                                        <i > <FaEnvelope/> </i>
-                                       info@consulting.com
+                                       info@hb-consulting.com
                                     </a>
                                  </li>
-                                 <li>
+                                 {/* searching button */}
+                                 {/* <li>
                                     <a href="#" className="search-toggle">
                                        <i > <FaSearch/> </i>
                                     </a>
-                                 </li>
+                                 </li> */}
                               </ul>
                            </div>
                         </div>
@@ -74,7 +75,7 @@ const HomeOneHeader = () => {
                                     <ul>
                                        <li>
                                           <NavLink  to="/home">Home</NavLink>
-                                          <ul className="submenu">
+                                          {/* <ul className="submenu">
                                              <li><NavLink to="/home">Home Style 1</NavLink></li>
                                              <li>
                                                 <NavLink to="/homeTwo">Home Style 2</NavLink>
@@ -93,7 +94,7 @@ const HomeOneHeader = () => {
                                                    <li><NavLink to="/headerStyleSeven">Header Syle 7</NavLink></li>
                                                 </ul>
                                              </li>
-                                          </ul>
+                                          </ul> */}
                                        </li>
                                        <li><NavLink to="/about">About Us </NavLink></li>
                                        <li>
@@ -112,13 +113,13 @@ const HomeOneHeader = () => {
                                              <li><NavLink to="/teamDetails">team Details</NavLink></li>
                                           </ul>
                                        </li>
-                                       <li>
+                                       {/* <li>
                                           <NavLink to="/blogs">Blog</NavLink>
                                           <ul className="submenu">
                                              <li><NavLink to="/blogs">Blog</NavLink></li>
                                              <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
                                           </ul>
-                                       </li>
+                                       </li> */}
                                        <li><NavLink to="/contact">Contact Us</NavLink></li>
                                     </ul>
                                  </nav>
@@ -138,7 +139,7 @@ const HomeOneHeader = () => {
                      </div>
                   </div>
                </div>
-               <div className="header__search-wrapper">
+               {/* <div className="header__search-wrapper">
                   <div className="container">
                      <div className="row">
                         <div className="col-xl-12">
@@ -149,12 +150,10 @@ const HomeOneHeader = () => {
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> */}
                <div className="body-overlay-2"></div>
             </div>
          </header>
-
-
 
          <Sidebar show={show} handleClose={handleClose} />
 

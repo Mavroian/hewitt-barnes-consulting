@@ -112,7 +112,7 @@ const Footer = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-6 col-lg-6 col-md-6">
                            <div className="footer__copyright-text">
-                              <p>Copyright © 2022 All Rights Reserved passion by <Link to="/">Theme_Pure</Link></p>
+                              <p>Copyright © 2022 All Rights Reserved passion by <a href="https://portfolio.mavroian.com/" target="_blank">Florin Mavroian</a></p>
                            </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6">

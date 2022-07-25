@@ -27,12 +27,6 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
-            <Route path="/homeTwo" element={<HomeTwo/>} />
-            <Route path="/homeThree" element={<HomeThree/>} />
-            <Route path="/headerStyleFour" element={<HeaderStyleFour/>} />
-            <Route path="/headerStyleFive" element={<HeaderStyleFive/>} />
-            <Route path="/headerStyleSix" element={<HeaderStyleSix/>} />
-            <Route path="/headerStyleSeven" element={<HeaderStyleSeven/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/servicesDetails" element={<ServicesDetails/>} />

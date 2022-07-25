@@ -20,7 +20,7 @@ const BlogFooter = () => {
                                  </div>
                               </div>
                               <div className="footer__widget-content footer__widget-content-2">
-                                 <p className="mb-30">Copyright © 2022 All Rights Reserved passion by Theme_Pure</p>
+                                 <p className="mb-30">Copyright © 2022 All Rights Reserved passion by Florin Mavroian</p>
                                  <div className="footer__social footer__social-2 theme-social mb-30">
                                     <ul>
                                        <li>
@@ -111,7 +111,7 @@ const BlogFooter = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-12 text-center">
                            <div className="footer__copyright-text footer__copyright-text-2">
-                              <p>Copyright © 2022 All Rights Reserved passion by <Link to="/home">Theme_Pure</Link></p>
+                              <p>Copyright © 2022 All Rights Reserved passion by <Link to="/home">Florin Mavroian</Link></p>
                            </div>
                         </div>
                      </div>

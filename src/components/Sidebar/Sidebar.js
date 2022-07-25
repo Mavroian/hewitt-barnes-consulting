@@ -15,14 +15,12 @@ const Sidebar = ({ show, handleClose }) => {
                <Offcanvas.Header closeButton>
                   <div className="logo">
                      <a href="index.html">
-                        <img src="assets/img/logo/logo.png" alt="logo" />
+                        <img src="assets/img/logo/logo_small.png" alt="logo" />
                      </a>
                   </div>
                </Offcanvas.Header>
 
                <Offcanvas.Body>
-
-
                   <section>
                      <div className="p-0">
                         <div className="sidebar__tab">
@@ -41,9 +39,10 @@ const Sidebar = ({ show, handleClose }) => {
                               <div className="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
 
                                  <div className='side_navBar'>
-                                    <Collapsible trigger={<NavLink to="/home">Home</NavLink>} triggerTagName="div"
-                                       triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                                       <ul className="sidebar_sub_menu text-white">
+                                    <NavLink to="/home">Home</NavLink>
+                                    {/* <Collapsible trigger={<NavLink to="/home">Home</NavLink>} triggerTagName="div"
+                                       triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}> */}
+                                       {/* <ul className="sidebar_sub_menu text-white">
 
                                           <li className='pt-10'><NavLink to="/home">Home style 1</NavLink></li>
 
@@ -64,8 +63,8 @@ const Sidebar = ({ show, handleClose }) => {
                                              </ul>
                                           </Collapsible>
 
-                                       </ul>
-                                    </Collapsible>
+                                       </ul> */}
+                                    {/* </Collapsible> */}
 
                                    <div className='about iconAdd'>
                                        <NavLink to="/about">About Us </NavLink>

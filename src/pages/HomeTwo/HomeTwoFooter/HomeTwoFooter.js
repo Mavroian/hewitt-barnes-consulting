@@ -20,7 +20,7 @@ const HomeTwoFooter = () => {
                                  </div>
                               </div>
                               <div className="footer__widget-content">
-                                 <p className="mb-30">Copyright © 2022 All Rights Reserved passion by Theme_Pure</p>
+                                 <p className="mb-30">Copyright © 2022 All Rights Reserved passion by Florin Mavroian</p>
                                  <div className="footer__social theme-social mb-30">
                                     <ul>
                                        <li>

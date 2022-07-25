@@ -124,7 +124,7 @@ const HomeThreeFooter = () => {
                         <div className="row align-items-center">
                            <div className="col-xl-12">
                               <div className="footer__copyright-text text-center">
-                                 <p>Copyright © 2022 All Rights Reserved passion by <Link to="/home">Theme_Pure</Link></p>
+                                 <p>Copyright © 2022 All Rights Reserved passion by <Link to="/home">Florin Mavroian</Link></p>
                               </div>
                            </div>
                         </div>

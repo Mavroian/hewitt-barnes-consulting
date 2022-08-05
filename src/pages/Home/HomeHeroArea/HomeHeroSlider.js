@@ -42,7 +42,7 @@ const HomeHeroArea = () => {
                   homeSliderData.map((slider,index) => {
                      return <div key={index} className={`single-slider slider__height d-flex align-items-center`}>
                         <div style ={{width:'100%',marginTop: '100px', display:'flex', justifyContent: 'center'}}>
-                           <video src={home_video} autoPlay loop muted  style ={{width:'100vw'}} />
+                           <video src="https://hewitt-barnes-consulting-space.fra1.digitaloceanspaces.com/home_video_small.mp4" autoPlay loop muted  style ={{width:'100vw'}} />
                         </div>
                         <div className="slider__shape">
                            <img className="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle" />

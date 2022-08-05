@@ -4,7 +4,6 @@ import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
 import { FiPlay } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import home_video from '../../../assets/video/home_video_small.mp4';
 
 const HomeHeroArea = () => {
    const { setIsVideoOpen} = useGlobalContext();

@@ -45,7 +45,7 @@ const HomeHeroArea = () => {
                            <video src="https://hewitt-barnes-consulting-space.fra1.digitaloceanspaces.com/home_video_small.mp4" autoPlay loop muted  style ={{width:'100vw'}} />
                         </div>
                         <div className="slider__shape">
-                           <img className="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle" />
+                           <img className="shape triangle"  src="assets/img/icon/slider/triangle.png" alt="triangle" />
                            <img className="shape dotted-square" src="assets/img/icon/slider/dotted-square.png" alt="dotted-square" />
                            <img className="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square" />
                            <img className="shape circle" src="assets/img/icon/slider/circle.png" alt="circle" />

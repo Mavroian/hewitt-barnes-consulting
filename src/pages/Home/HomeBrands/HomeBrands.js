@@ -54,10 +54,10 @@ const HomeBrands = () => {
                   </div>
                   <div className="col-xl-6 col-lg-7">
                      <div className="section__title section__title-3 wow fadeInUp" data-wow-delay=".2s">
-                        <h2>More than 7,962 designers use konsul.</h2>
+                        <h2>Working in close partnership with our clients </h2>
                      </div>
                      <div className="brand__subtitle mb-90 wow fadeInUp" data-wow-delay=".4s">
-                        <p>Design anything from simple icons to fully featured websites and applications.</p>
+                        <p>Improving the health and safety of patients we are committed to quality and excellence in everything we do to support clients throughout the full product lifecycle.</p>
                      </div>
                   </div>
                </div>

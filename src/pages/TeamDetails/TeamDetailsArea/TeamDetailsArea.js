@@ -30,7 +30,7 @@ const TeamDetailsArea = () => {
                                        <i > <FaEnvelope/> </i>
                                     </div>
                                     <div className="text theme-color ">
-                                       <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                       <span><a href="mailto:info@hb-consulting.com">info@hb-consulting.com</a></span>
                                     </div>
                                  </li>
                                  <li>
@@ -46,7 +46,7 @@ const TeamDetailsArea = () => {
                                        <i > <BiMap /> </i>
                                     </div>
                                     <div className="text">
-                                       <span>Ave 14th Street, Mirpur 210, <br/> San Franciso, USA 3296.</span>
+                                       <span>Ave 14th Street, Mirpur 210, <br/> London, UK 3296.</span>
                                     </div>
                                  </li>
                               </ul>
@@ -54,19 +54,19 @@ const TeamDetailsArea = () => {
                            <div className="team__details-social theme-social" >
                               <ul>
                                  <li>
-                                    <a href="#">
+                                    <a href="/">
                                        <i ><FaFacebookF /></i>
                                        <i ><FaFacebookF /></i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#">
+                                    <a href="/">
                                        <i ><FaTwitter /> </i>
                                        <i ><FaTwitter /> </i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#">
+                                    <a href="/">
                                        <i ><FaVimeoV /> </i>
                                        <i ><FaVimeoV /> </i>
                                     </a>

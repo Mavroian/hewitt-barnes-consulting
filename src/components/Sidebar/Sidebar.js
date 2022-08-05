@@ -126,7 +126,7 @@ const Sidebar = ({ show, handleClose }) => {
                                                 <i > <BiMap /> </i>
                                              </div>
                                              <div className="text">
-                                                <span>Ave 14th Street, Mirpur 210, San Franciso, USA 3296.</span>
+                                                <span>Ave 14th Street, Mirpur 210, London, UK 3296.</span>
                                              </div>
                                           </li>
                                           <li>
@@ -134,7 +134,7 @@ const Sidebar = ({ show, handleClose }) => {
                                                 <i > <FaEnvelope /> </i>
                                              </div>
                                              <div className="text ">
-                                                <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                                <span><a href="mailto:info@hb-consulting.com">info@hb-consulting.com</a></span>
                                              </div>
                                           </li>
                                           <li>

@@ -1,6 +1,27 @@
 /*----------------------------------------*/
 /*  04. FEATURES CSS START
 /*----------------------------------------*/
+// Colors
+$color-primary:#55c57a;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
+
+$color-gray-light-1: #f7f7f7;
+$color-gray-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-gray-dark-2:#999;
+$color-gray-dark-3:#333;
+
+$color-white: #fff;
+$color-black: #0000;
+
+$color-secondary-light:#ffb7c5;
+$color-secondary-dark:#f78aa0;
+
+$color-tertiary-light:#2998ff;
+$color-tertiary-dark:#5643fa;
+
 
 .features{
     &__area{}
@@ -19,6 +40,7 @@
         min-height: 300px;
 
         &:hover{
+            transform: rotateY(-180deg);
             & .features__content{
                 top: 40%;
             }
@@ -188,3 +210,146 @@
         }
     }
 }
+
+.card {
+    //FUNCTIONALITY
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    z-index: 1;
+    min-height: 300px;
+    background-image: -webkit-linear-gradient(60deg, #ff24f7 0%, #781ce2 100%);
+    &__side {
+      height: 20rem;
+      transition: all .8s ease;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      backface-visibility: hidden;
+      border-radius: 3px;
+      overflow: hidden;
+      box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+      
+      &--back {
+        transform: rotateY(180deg);
+        background-blend-mode: screen;
+        &-1 {
+          background-image: linear-gradient(to right bottom,
+          #ff24f7 , 
+          #781ce2), 
+           url(patterns/brushed-alum.png);
+        }
+        &-2 {
+          background-image: linear-gradient(to right bottom,
+           $color-primary-light, 
+           $color-primary-dark), 
+           url(patterns/brushed-alum.png);
+        }
+        &-3 {
+          background-image: linear-gradient(to right bottom,
+           $color-tertiary-light,
+           $color-tertiary-dark), 
+           url(patterns/brushed-alum.png);
+        }
+      }
+    }
+    &:hover &__side--front {
+      transform: rotateY(-180deg);
+    }
+    &:hover &__side--back {
+      transform: rotateY(0);
+    }
+  
+    //FRONT SIDE STYLING
+    &__picture {
+      background-size: cover;
+      background-blend-mode: screen;
+      clip-path: polygon(0 0, 100% 0 , 100% 85% , 0 100%);
+  
+      &--1 {
+        background-image: linear-gradient(to right bottom,  #ff24f7 , 
+        #781ce2);
+  
+      }
+      &--2 {
+        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/japan/priscilla-du-preez-FOsina4f7qM-unsplash.jpg);
+      }
+      &--3 {
+        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/japan/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
+      }
+    }
+    &__heading {
+      font-size: 2.8rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: $color-white;
+      position: absolute;
+      top: 12rem;
+      right: 2rem;
+      text-align: right;
+      width: 75%;
+    }
+  
+    &__heading-span{
+      padding: 1rem 1.5rem;
+      box-decoration-break: clone;
+  
+      &--1 {
+        background-image: linear-gradient(to right bottom, 
+        rgba($color-secondary-light,.85), 
+        rgba($color-secondary-dark, .85));
+      }
+      &--2 {
+        background-image: linear-gradient(to right bottom, 
+        rgba($color-primary-light,.85), 
+        rgba($color-primary-dark, .85));
+      }
+      &--3 {
+        background-image: linear-gradient(to right bottom, 
+        rgba($color-tertiary-light,.85), 
+        rgba($color-tertiary-dark, .85));
+      }
+    }
+    &__details {
+      padding: 3rem;
+      ul {
+        list-style: none;
+        width: 80%;
+        margin: 0 auto;
+        li {
+          text-align: center;
+          font-size: 1.5rem;
+          padding: 1rem;
+  
+          &:not(:last-child){
+            border-bottom: 1px solid #eee;;
+          }
+        }
+      }
+    }
+  
+    // BACK SIDE STYLING
+  
+    &__cta {
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      text-align: center;
+      color: white;
+    }
+    &__price-box {
+      text-align: center;
+      color: $color-white;
+    }
+    &__price-only {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+    }
+    &__price-value {
+      font-size: 6rem;
+      font-weight: 100;
+    }
+  }

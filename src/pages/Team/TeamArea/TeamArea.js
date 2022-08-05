@@ -10,7 +10,7 @@ const TeamArea = () => {
                   <div className="col-xl-6 col-lg-8 col-md-8 col-sm-8">
                      <div className="section__title section__title-3 mb-30">
                         <span>Our Team</span>
-                        <h2>We help to create visual strategies.</h2>
+                        <h2>Meet our leadership team.</h2>
                      </div>
                   </div>
                </div>

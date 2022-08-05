@@ -4,6 +4,7 @@ import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
 import { FiPlay } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import home_video from '../../../assets/video/home_video_small.mp4';
 
 const HomeHeroArea = () => {
    const { setIsVideoOpen} = useGlobalContext();
@@ -39,14 +40,17 @@ const HomeHeroArea = () => {
                <Slider className='slider-active' {...settings}>
                 {
                   homeSliderData.map((slider,index) => {
-                     return <div key={index} className={`single-slider slider__height d-flex align-items-center ${slider.bgImg}`}>
+                     return <div key={index} className={`single-slider slider__height d-flex align-items-center`}>
+                        <div style ={{width:'100%',marginTop: '100px', display:'flex', justifyContent: 'center'}}>
+                           <video src={home_video} autoPlay loop muted  style ={{width:'100vw'}} />
+                        </div>
                         <div className="slider__shape">
                            <img className="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle" />
                            <img className="shape dotted-square" src="assets/img/icon/slider/dotted-square.png" alt="dotted-square" />
                            <img className="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square" />
                            <img className="shape circle" src="assets/img/icon/slider/circle.png" alt="circle" />
                         </div>
-                        <div className="container h1_slider_wrapper">
+                        <div className="container h1_slider_wrapper" style={{position:'absolute'}}>
                            <div className="row">
                               <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
                                  <div className="slider__content">

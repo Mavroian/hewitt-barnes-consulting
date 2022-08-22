@@ -63,16 +63,10 @@ const ServicesDetailsArea = () => {
                             <img src="assets/img/services/details/services-01.jpg" alt=""/>
                          </div>
                          <div className="services__text">
-                            <h3>We Unlock Potential</h3>
-                            <p>Cheeky say horse play cup of char bubble and squeak
-                               blower pukka what a load of rubbish off his nut, a blinding shot pardon you young delinquent
-                               argy-bargy no biggie only a quid pardon me haggle, bleeding amongst the wireless easy peasy loo
-                               <span>Charles I don't want no agro</span>. Why gormless loo he lost his bottle wellies cup of
-                               tea pardon me lost the plot naff what a plonker, lurgy show off show off pick your nose and blow
-                               off super knackered smashing blower morish my lady, bodge codswallop bits and bobs bobby arse
-                               get stuffed mate down the pub mush. Eaton lavatory on your bike mate loo bugger all mate nancy
-                               boy me old mucker he legged it, twit vagabond pardon me cockup gormless buggered wellies, A bit
-                               of how's your father bum bag codswallop bleeder cracking goal absolutely bladdered.</p>
+                            <h3>We are Medical Device Experts</h3>
+                            <p>Our team of advisors and collaborators have worked with clinicians, 
+                              materials management, procurement and finance in the UK for many years. 
+                              We are united in our passion for excellence in the provision of beneficial technology to our healthcare partners.</p>
                          </div>
                          <div className="services__list mb-40">
                             <ul>

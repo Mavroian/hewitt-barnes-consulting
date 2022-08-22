@@ -1,7 +1,10 @@
 /*----------------------------------------*/
 /*  03. SLIDER CSS START
 /*----------------------------------------*/
-
+.slick-prev:before,
+.slick-next:before {
+  color: red!important;
+}
 .single-slider{
     position: relative;
     @include background();

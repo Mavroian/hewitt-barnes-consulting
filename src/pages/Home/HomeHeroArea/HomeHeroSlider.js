@@ -54,9 +54,12 @@ const HomeHeroArea = () => {
                               <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
                                  <div className="slider__content">
                                     {/* <span>We’ve added a new exciting feature in v2.0.</span> */}
-                                    <h1>Get farther with <br /> Hewitt Barnes Consulting</h1>
+                                    <div className="slider__title_header">
+                                       <h1>Improve Patient Outcomes with <span>HBC</span></h1>
+                                    </div> 
+                                    
                                     <div className="slider__btn">
-                                       <Link to="/contact" className="z-btn z-btn-transparent">Get a quote</Link>
+                                       <Link to="/contact" className="z-btn z-btn-transparent">Enquire</Link>
                                     </div>
                                  </div>
                               </div>

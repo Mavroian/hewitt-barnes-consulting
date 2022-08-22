@@ -10,7 +10,7 @@ const HomeAbout = () => {
                <div className="row">
                   <div className="col-xl-6 pr-0 col-lg-6">
                      <div className="about__thumb m-img">
-                        <img src="assets/img/about/about-1.jpg" alt=""/>
+                        <img src="https://hewitt-barnes-consulting-space.fra1.cdn.digitaloceanspaces.com/about-1.jpeg" alt=""/>
                            <div className="about__shape">
                               <img src="assets/img/about/red-shape.png" alt=""/>
                            </div>
@@ -20,14 +20,15 @@ const HomeAbout = () => {
                      <div className="about__content">
                         <div className="section__title mb-25">
                            <span>Who we are</span>
-                           <h2>We Unlock Potential</h2>
+                           <h2>We are Medical Device Experts</h2>
                         </div>
-                        <p>Why I say old chap that is spiffing do one, cup of char bite your arm off lavatory bugger all mate bog-standard bits and bobs I'm telling barmy blow.</p>
+                        <p> Our team of advisors and collaborators have worked with clinicians, materials management, procurement and finance in the UK for many years. 
+                           <br/> We are united in our passion for excellence in the provision of beneficial technology to our healthcare partners.</p>
                         <div className="about__list">
                            <ul>
-                              <li ><span><i > <FaCheck/> </i>Innovative ideas</span></li>
-                              <li ><span><i > <FaCheck/> </i>Professional assistance</span></li>
-                              <li ><span><i > <FaCheck/> </i>Financial advisory</span></li>
+                              <li ><span><i > <FaCheck/> </i>Knowledge</span></li>
+                              <li ><span><i > <FaCheck/> </i>Passion</span></li>
+                              <li ><span><i > <FaCheck/> </i>Understanding</span></li>
                            </ul>
                         </div>
                         <Link to="/services" className="z-btn " >What we do<i > <CgArrowLongRight /> </i></Link>

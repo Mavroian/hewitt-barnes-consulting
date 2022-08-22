@@ -4,17 +4,17 @@ import SingleBrandItem from "../../../components/SingleBrandItem/SingleBrandItem
 const HomeBrands = () => {
    // slick setting
    const settings = {
-      autoplay: false,
-      autoplaySpeed: 10000,
-      dots: false,
-      arrows: false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: true,
+      arrows: true,
+      slidesToShow: 2,
+      slidesToScroll: 2,
       responsive: [
          {
             breakpoint: 1024,
             settings: {
-               slidesToShow: 4,
+               slidesToShow: 1,
                slidesToScroll: 1,
                infinite: true,
             }
@@ -22,14 +22,14 @@ const HomeBrands = () => {
          {
             breakpoint: 767,
             settings: {
-               slidesToShow: 3,
+               slidesToShow: 1,
                slidesToScroll: 1,
             }
          },
          {
             breakpoint: 576,
             settings: {
-               slidesToShow: 2,
+               slidesToShow: 1,
                slidesToScroll: 1,
             }
          },
@@ -63,12 +63,11 @@ const HomeBrands = () => {
                </div>
                <div className="row">
 
-                  <Slider className='brand-active' {...settings}>
-                     <SingleBrandItem img_1="1" img_2="5" />
-                     <SingleBrandItem img_1="2" img_2="6" />
-                     <SingleBrandItem img_1="3" img_2="7" />
-                     <SingleBrandItem img_1="4" img_2="8" />
-                     <SingleBrandItem img_1="2" img_2="6" />
+                  <Slider className='brand-active' {...settings} >
+                     <SingleBrandItem img="1" />
+                     <SingleBrandItem img="2"  />
+                     <SingleBrandItem img="3"  />
+                     <SingleBrandItem img="4"/>
                   </Slider>
 
                </div>

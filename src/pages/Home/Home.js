@@ -5,7 +5,7 @@ import HomeFeatures from './HomeFeatures/HomeFeatures';
 import HomeAbout from './HomeAbout/HomeAbout';
 import HomeCapabilities from './HomeCapabilities/HomeCapabilities';
 import HomeServices from './HomeServices/HomeServices';
-import HomeCounterArea from './HomeCounterArea/HomeCounterArea';
+// import HomeCounterArea from './HomeCounterArea/HomeCounterArea';
 import HomeTeams from './HomeTeams/HomeTeams';
 // import HomePricing from './HomePricing/HomePricing';
 import HomeBrands from './HomeBrands/HomeBrands';
@@ -26,7 +26,7 @@ const Home = () => {
             <HomeAbout/>
             <HomeCapabilities/>
             <HomeServices/>
-            <HomeCounterArea/>
+            {/* <HomeCounterArea/> */}
             <HomeTeams/>
             <CommonCtaArea/>
             {/* <HomePricing/> */}

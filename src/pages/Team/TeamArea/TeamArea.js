@@ -16,18 +16,10 @@ const TeamArea = () => {
                </div>
                <div className="row">
 
-                  <SingleTeam image="1" name="Peter Barnes" title="CEO & founder" />
-                  <SingleTeam image="2" name="Norman Gordon" title="Associate Consultant" />
-                  <SingleTeam image="3" name="Indigo Violet" title="Project Manager" />
-                  <SingleTeam image="4" name="Dylan Meringue" title="Support" />
-                  <SingleTeam image="5" name="Berlin Corleone" title="App Developer" />
-                  <SingleTeam image="6" name="Shahnewaz Sakil" title="Web Developer" />
-                  <SingleTeam image="7" name="Chauffina Carr" title="UI/UX Designer" />
-                  <SingleTeam image="8" name="Justin Case" title="Sumo Founder" />
-                  <SingleTeam image="9" name="Joss Sticks" title="Support" />
-                  <SingleTeam image="10" name="Dianne Ameter" title="App Designer" />
-                  <SingleTeam image="11" name="Russell Sprout" title="Web Developer" />
-                  <SingleTeam image="12" name="Lurch Schpellchek" title="Digital Marketer" />
+                  <SingleTeam image="1" name="Peter Barnes" title="Owner and Managing Consultant" description="Pete has vast clinical and commercial experience in the UK medical devices sector. His understanding of Health Economics including clinical and commercial buying priorities has enabled him to adapt to many different therapy areas and add value to his wide network of NHS and Private Hospital customers. Pete is passionate about improving patient outcomes through the cost effective application of medical technology. He is now applying that broad knowledge and experience to provide a holistic consulting service to facilitate successful, win-win partnerships between healthcare providers and Medtech suppliers. Pete founded HBC in March 2020 with a mission to help hospitals achieve clinical and financial objectives." />
+                  <SingleTeam image="2" name="Nicoleta Manole" title="International Consultant" description="Nicoleta is a multi-lingual entrepreneur who has run successful recruitment businesses in Europe, North America and Japan. Also a Japanese speaker, Nicoleta enables HBC to build  relationships with key Medtech suppliers, expanding opportunities for accessing beneficial technology for the UK. Her passion for healthcare, and particularly the NHS, drives her determination to help improve patients’ lives."/>
+                  <SingleTeam image="3" name="Mr David Griffiths" title="Medical Advisor"　description="Qualifying in 1987, Mr Griffiths completed his formative training in the Midlands. He has worked as a clinical fellow in reproductive medicine at St James's University Hospital, Leeds and in 1994 was awarded a Fellowship to Harvard Medical School, Boston, USA. Before taking up his NHS Consultant post he also worked at the Center for Endometriosis Care, Atlanta, Georgia and various hospitals in New Zealand.Mr Griffiths was a trainer in advanced laparoscopic surgery for The University of Surrey and has taught many of the present consultants. He is currently the principal trainer for benign gynaecological surgery for the O&G trainees in the South West Deanery. Mr Griffiths has an advisory role with HBC, with a particular focus on performance management for efficiency in surgery." />
+                  <SingleTeam image="4" name="Eugene Warren" title="Medtech Consultant" description="Eugene has over 30 years experience in the medical devices industry. Having held management positions in companies such as Smith & Nephew and Zimmer Biomet, Eugene has spent the last 11 years as Managing Director of Accord Medical Ltd. Eugene brings not only expert understanding of the clinical, operational and financial workings of the UK healthcare system, but also a vast network of clinicians, across multiple specialities, to broaden HBC’s access to Key Opinion Leaders" />
 
                </div >
             </div >

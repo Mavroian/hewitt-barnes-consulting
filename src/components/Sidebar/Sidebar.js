@@ -14,8 +14,10 @@ const Sidebar = ({ show, handleClose }) => {
             <Offcanvas show={show} onHide={handleClose} placement='end' className='side__bar'>
                <Offcanvas.Header closeButton>
                   <div className="logo">
-                     <a href="index.html">
-                        <img src="assets/img/logo/logo_small.png" alt="logo" />
+                     <a href="/">
+                     {/* We should ad a logo here */}
+                     {/* img here */}
+                       HBC
                      </a>
                   </div>
                </Offcanvas.Header>
@@ -67,18 +69,18 @@ const Sidebar = ({ show, handleClose }) => {
                                     {/* </Collapsible> */}
 
                                    <div className='about iconAdd'>
-                                       <NavLink to="/about">About Us </NavLink>
+                                       <NavLink to="/team">Team </NavLink>
                                    </div>
 
-                                    <Collapsible trigger={<NavLink to="/services">Services</NavLink>} triggerTagName="div"
+                                    {/* <Collapsible trigger={<NavLink to="/services">Services</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                           <ul className="sidebar_sub_menu submenu text-white">
                                              <li><NavLink to="/services">Services</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
                                           </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
-                                    <Collapsible trigger={<NavLink to="/portfolio">Insights</NavLink>} triggerTagName="div"
+                                    {/* <Collapsible trigger={<NavLink to="/portfolio">Insights</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white text-capitalize">
                                           <li><NavLink to="/portfolio">portfolio</NavLink></li>
@@ -86,15 +88,15 @@ const Sidebar = ({ show, handleClose }) => {
                                           <li><NavLink to="/team">team</NavLink></li>
                                           <li><NavLink to="/teamDetails">team Details</NavLink></li>
                                        </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
-                                    <Collapsible trigger={<NavLink to="/blogs">Blog</NavLink>} triggerTagName="div"
+                                    {/* <Collapsible trigger={<NavLink to="/blogs">Blog</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
                                           <li><NavLink to="/blogs">Blog</NavLink></li>
                                           <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
                                        </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
                                     <div className='about iconAdd border-0'>
                                        <NavLink to="/contact">Contact Us </NavLink>
@@ -106,18 +108,18 @@ const Sidebar = ({ show, handleClose }) => {
 
                               <div className="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
                                  <div className="sidebar__info">
-                                    <div className="logo mb-40">
+                                    {/* <div className="logo mb-40">
                                        <a href="index.html">
-                                          <img src="assets/img/logo/logo.png" alt="logo"/>
+                                         HBC
                                        </a>
-                                    </div>
-                                    <p>We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts of the system and expound.</p>
-                                    <a href="contact.html" className="z-btn z-btn-white">contact us</a>
+                                    </div> */}
+                                    <p>Improve Patient Outcomes with HBC</p>
+                                    <a href="/contact" className="z-btn z-btn-white">contact us</a>
                                     <div className="sidebar__search">
-                                       <form action="#">
+                                       {/* <form action="#">
                                           <input type="text" placeholder="Your Keywords.."/>
                                           <button type="submit"><i > <FaSearch /> </i></button>
-                                       </form>
+                                       </form> */}
                                     </div>
                                     <div className="sidebar__contact mt-30">
                                        <ul>

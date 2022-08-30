@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaFacebook,
   FaEnvelope,
-  FaFacebookF,
   FaPhoneAlt,
   FaTwitter,
   FaVimeoV,

@@ -5,10 +5,9 @@ import {
   FaPinterestP,
   FaPhoneAlt,
   FaEnvelope,
-  FaSearch,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Sidebar from "../../../components/Sidebar/Sidebar";
 import useGlobalContext from "../../../hooks/useGlobalContext";
 

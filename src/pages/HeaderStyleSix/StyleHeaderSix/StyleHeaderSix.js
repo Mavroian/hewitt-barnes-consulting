@@ -8,7 +8,7 @@ import {
   FaSearch,
   FaTwitter,
 } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import useGlobalContext from "../../../hooks/useGlobalContext";
 import Sidebar from "../../../components/Sidebar/Sidebar";
 

@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
+import ContactThanks from "./pages/Contact/ContactThanks/ContactThanks";
 // import HeaderStyleFive from "./pages/HeaderStyleFive/HeaderStyleFive";
 // import HeaderStyleFour from "./pages/HeaderStyleFour/HeaderStyleFour";
 // import HeaderStyleSeven from "./pages/HeaderStyleSeven/HeaderStyleSeven";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogDetails" element={<BlogDetails />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/thanks" element={<ContactThanks />} />
         </Routes>
       </BrowserRouter>
     </>

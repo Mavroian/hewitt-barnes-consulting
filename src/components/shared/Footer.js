@@ -125,7 +125,8 @@ const Footer = () => {
                             <div className="text">
                               <span>
                                 <a href="https://goo.gl/maps/etbEydAbysLjPpym6">
-                                  Ave 14th Street, Mirpur 210, London, UK 3296.
+                                  Hewitt-Barnes Consulting Ltd. Northgate House,
+                                  Upper Borough Walls, Bath BA1 1RG, UK
                                 </a>
                               </span>
                             </div>
@@ -140,7 +141,7 @@ const Footer = () => {
                             <div className="text theme-color ">
                               <span>
                                 <a href="mailto:info@hb-consulting.com">
-                                  info@hb-consulting.com
+                                  info@hewitt-barnes.com
                                 </a>
                               </span>
                             </div>
@@ -153,8 +154,8 @@ const Footer = () => {
                             </div>
                             <div className="text theme-color">
                               <span>
-                                <a href="tel:(+642)-394-396-432">
-                                  (+642) 394 396 432
+                                <a href="tel: +44 (0)800 861 1229">
+                                  +44 (0)800 861 1229
                                 </a>
                               </span>
                             </div>

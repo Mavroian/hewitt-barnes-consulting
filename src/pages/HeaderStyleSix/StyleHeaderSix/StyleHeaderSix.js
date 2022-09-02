@@ -63,21 +63,21 @@ const StyleHeaderSix = () => {
                 <div className="header__info f-right">
                   <ul>
                     <li>
-                      <a href="tel:(+468)-254-762-443">
+                      <a href="tel: +44 (0)800 861 1229">
                         <i>
                           {" "}
                           <FaPhoneAlt />{" "}
                         </i>
-                        (+468) 254 762 443
+                        +44 (0)800 861 1229
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:info@consulting.com">
+                      <a href="mailto:info@hewitt-barnes.com">
                         <i>
                           {" "}
                           <FaEnvelope />{" "}
                         </i>
-                        info@consulting.com
+                        info@hewitt-barnes.com
                       </a>
                     </li>
                     <li>

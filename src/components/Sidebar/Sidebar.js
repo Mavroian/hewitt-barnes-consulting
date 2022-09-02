@@ -163,7 +163,8 @@ const Sidebar = ({ show, handleClose }) => {
                               </div>
                               <div className="text">
                                 <span>
-                                  Ave 14th Street, Mirpur 210, London, UK 3296.
+                                  Hewitt-Barnes Consulting Ltd. Northgate House,
+                                  Upper Borough Walls, Bath BA1 1RG, UK
                                 </span>
                               </div>
                             </li>

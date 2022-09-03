@@ -65,7 +65,11 @@ const HomeContact = () => {
                         value="false"
                       ></input>
 
-                      <input type="hidden" name="_next" value="/thanks"></input>
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://www.hewitt-barnes.com/thanks"
+                      ></input>
                       <input
                         type="text"
                         name="Fullname"

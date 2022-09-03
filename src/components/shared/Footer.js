@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="footer__top pb-45">
             <div className="container">
               <div className="row">
-                <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                {/* <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                   <div className="footer__widget mb-45">
                     <div className="footer__widget-title">
                       <h4>Get In touch</h4>
@@ -67,7 +67,7 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/*
                         <div className="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1 col-md-4 col-sm-6">
                            <div className="footer__widget mb-45 wow fadeInUp" data-wow-delay=".4s">
@@ -110,7 +110,7 @@ const Footer = () => {
                 <div className="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 col-sm-6">
                   <div className="footer__widget mb-45">
                     <div className="footer__widget-title">
-                      <h4>Company</h4>
+                      <h4>Get in touch</h4>
                     </div>
                     <div className="footer__widget-content">
                       <div className="footer__info">
@@ -174,7 +174,8 @@ const Footer = () => {
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="footer__copyright-text">
                     <p>
-                      Copyright © 2022 All Rights Reserved passion by{" "}
+                      Copyright © 2022 All Rights Reserved. Created with passion
+                      by{" "}
                       <a
                         href="https://portfolio.mavroian.com/"
                         target="_blank"

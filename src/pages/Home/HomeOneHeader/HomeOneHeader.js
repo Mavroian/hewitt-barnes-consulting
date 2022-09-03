@@ -27,13 +27,13 @@ const HomeOneHeader = () => {
                   <div className="header__social">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/company/hewitt-barnes-consulting-ltd">
                           <i>
-                            <FaFacebookF />
+                            <FaLinkedinIn />
                           </i>{" "}
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">
                           <i>
                             <FaTwitter />{" "}
@@ -54,7 +54,7 @@ const HomeOneHeader = () => {
                             <FaPinterestP />{" "}
                           </i>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

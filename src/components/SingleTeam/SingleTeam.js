@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaVimeoV } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaTwitter, FaVimeoV } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const SingleTeam = ({ ...props }) => {
@@ -21,18 +21,18 @@ const SingleTeam = ({ ...props }) => {
             <div className="team__social theme-social">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/hewitt-barnes-consulting-ltd/">
                     <i>
                       {" "}
-                      <FaFacebookF />{" "}
+                      <FaLinkedin />{" "}
                     </i>
                     <i>
                       {" "}
-                      <FaFacebookF />{" "}
+                      <FaLinkedin />{" "}
                     </i>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">
                     <i>
                       {" "}
@@ -43,8 +43,8 @@ const SingleTeam = ({ ...props }) => {
                       <FaTwitter />{" "}
                     </i>
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="#">
                     <i>
                       {" "}
@@ -55,7 +55,7 @@ const SingleTeam = ({ ...props }) => {
                       <FaVimeoV />{" "}
                     </i>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

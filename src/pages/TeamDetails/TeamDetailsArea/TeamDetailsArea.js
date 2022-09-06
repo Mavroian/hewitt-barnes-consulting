@@ -37,8 +37,8 @@ const TeamDetailsArea = ({ member }) => {
                         </div>
                         <div className="text theme-color ">
                           <span>
-                            <a href="mailto:info@hb-consulting.com">
-                              info@hb-consulting.com
+                            <a href="mailto:info@hewitt-barnes.com">
+                            info@hewitt-barnes.com
                             </a>
                           </span>
                         </div>

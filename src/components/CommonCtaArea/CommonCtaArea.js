@@ -17,7 +17,7 @@ const CommonCtaArea = () => {
             <div className="col-xl-10 offset-xl-1">
               <div className="cta__content text-center">
                 {/* <span >We’ve added a new exciting feature in v2.0.</span> */}
-                <h1>Do you have any question? Feel free to contact us</h1>
+                <h1>Do you have any questions? Feel free to contact us</h1>
                 <div className="cta__btn">
                   <Link to="/contact" className="z-btn z-btn-white mb-30">
                     Contact Us

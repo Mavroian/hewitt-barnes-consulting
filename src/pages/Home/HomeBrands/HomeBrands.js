@@ -79,7 +79,7 @@ const HomeBrands = () => {
                 data-wow-delay=".4s"
               >
                 <p>
-                  Improving the health and safety of patients we are committed
+                  With the improving of the health and safety of patients, we are committed
                   to quality and excellence in everything we do to support
                   clients throughout the full product lifecycle.
                 </p>

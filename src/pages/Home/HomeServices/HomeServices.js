@@ -14,7 +14,7 @@ const HomeServices = () => {
               >
                 <span>Our Services</span>
                 <h2>
-                  ‘Helping Improve Secondary Healthcare in the UK with our tools
+                  Helping Improve Secondary Healthcare in the UK with our tools
                 </h2>
               </div>
             </div>

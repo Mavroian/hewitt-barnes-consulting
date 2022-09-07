@@ -57,6 +57,11 @@
                 visibility: visible;
                 opacity: 1;
             }
+            & .team__social1{
+                bottom: 35px;
+                visibility: visible;
+                opacity: 1;
+            }
         }
     }
     &__add{
@@ -107,6 +112,17 @@
             color: $grey-5;
         }
     }
+    &__social1 {
+        position: absolute;
+        top: 45%;
+        
+        z-index: 1;
+        visibility: hidden;
+        opacity: 0;
+        @include transition(.3s);
+       
+    }
+
     &__social{
         position: absolute;
         bottom: 10px;
@@ -114,7 +130,7 @@
         z-index: 1;
         visibility: hidden;
         opacity: 0;
-        @include transition(.3s);
+        @include transition(.1s);
         & ul{
             & li{
                 display: inline-block;

@@ -312,6 +312,75 @@ p {
 	padding-top: 270px;
 }
 
+.profile-btn{
+	display: inline-block;
+	height: 54px;
+	line-height: 48px;
+	border: 2px solid $theme-color;
+	background: $purple;
+	color: $white;
+	padding: 0 30px;
+	@include border-radius(10px);
+	font-weight: 700;
+	text-transform: capitalize;
+	min-width: 160px;
+	text-align: center;
+	& i{
+		margin-left: 8px;
+	}
+	&:hover{
+		background: $white;
+		color: $theme-color;
+	}
+	&-white{
+		background: $white;
+		border-color: $white;
+		color: $black;
+		&:hover{
+			background: $black;
+			border-color: $black;
+			color: $white;
+		}
+		&-2{
+			font-size: 15px;
+			height: 44px;
+			line-height: 40px;
+		}
+		&-3{
+			&:hover{
+				background: $theme-color;
+				border-color: $theme-color;
+			}
+		}
+	}
+	&-transparent{
+		background: transparent;
+		border-color: rgba($color: $white, $alpha: .2);
+		&:hover{
+			background: $white;
+			color: $black;
+			border-color: $white;
+		}
+		&-2{
+			border-color: rgba($color: $white, $alpha: .2);
+		}
+	}
+	&-border{
+		border-color: $border-6;
+		color: $black;
+		background: transparent;
+		&:hover{
+			background: $theme-color;
+			color: $white;
+			border-color: $theme-color;
+		}
+	}
+	&-3{
+		height: 44px;
+		line-height: 40px;
+	}
+}
+
 /* btn */
 
 .z-btn{

@@ -1,22 +1,30 @@
 import Slider from "react-slick";
 import SingleBrandItem from "../../../components/SingleBrandItem/SingleBrandItem";
+import SliderWrapper from "../../../components/SliderWrapper/SliderWrapper";
 
 const HomeBrands = () => {
   // slick setting
   const settings = {
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 5000,
     dots: true,
     arrows: false,
+    infinite: true,
     slidesToShow: 2,
     slidesToScroll: 2,
+    appendDots: dots => <ul>{dots}</ul>,
+    customPaging: i => (
+      <div className="ft-slick__dots--custom">
+        <div className="loading" />
+      </div>
+    ),
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: false,
+          infinite: true,
         },
       },
       {
@@ -87,12 +95,14 @@ const HomeBrands = () => {
             </div>
           </div>
           <div className="row">
-            <Slider className="brand-active" {...settings}>
-              <SingleBrandItem img="1" />
-              <SingleBrandItem img="2" />
-              <SingleBrandItem img="3" />
-              <SingleBrandItem img="4" />
-            </Slider>
+            <SliderWrapper>
+              <Slider className="brand-active" {...settings}>
+                <SingleBrandItem img="1" />
+                <SingleBrandItem img="2" />
+                <SingleBrandItem img="3" />
+                <SingleBrandItem img="4" />
+              </Slider>
+            </SliderWrapper>
           </div>
         </div>
       </section>

@@ -23,7 +23,7 @@ const HomeServices = () => {
             <SingleService
               icon="3"
               title="Procurement Consulting"
-              description="Identifing and managing cost/operational savings project for UK hospital groups."
+              description="Identifing and managing cost/operational savings projects for UK hospital groups."
             />
             <SingleService
               icon="1"

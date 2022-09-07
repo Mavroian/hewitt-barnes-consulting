@@ -11,12 +11,16 @@ const SingleTeam = ({ ...props }) => {
             <img src={`assets/img/team/team-${props.image}.jpg`} alt="team" />
             <div className="team__info text-start">
               <h3>
-                <Link to="/teamDetails" state={{ props }}>
-                  {" "}
                   {props.name}
-                </Link>
               </h3>
               <span>{props.title}</span>
+            </div>
+            <div className="team__social1">
+              <button type="submit" className="profile-btn">
+              <Link to="/teamDetails" state={{ props }}>
+                 View Profile
+                </Link>
+              </button>
             </div>
             <div className="team__social theme-social">
               <ul>

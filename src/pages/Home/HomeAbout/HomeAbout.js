@@ -7,7 +7,7 @@ const HomeAbout = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6 pr-0 col-lg-6">
-              <div className="about__thumb m-img">
+              <div className="about m-img">
                 <img
                   src="https://hewitt-barnes-consulting-space.fra1.cdn.digitaloceanspaces.com/about-1.jpeg"
                   alt=""

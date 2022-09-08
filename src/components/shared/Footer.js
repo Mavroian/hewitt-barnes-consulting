@@ -1,10 +1,8 @@
 import React from "react";
 import {
-  FaFacebook,
   FaEnvelope,
   FaPhoneAlt,
-  FaTwitter,
-  FaVimeoV,
+
   FaLinkedinIn,
   FaGithub,
   FaGlobeAmericas,

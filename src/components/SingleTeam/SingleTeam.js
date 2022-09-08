@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaLinkedin, FaTwitter, FaVimeoV } from "react-icons/fa";
+import {  FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const SingleTeam = ({ ...props }) => {

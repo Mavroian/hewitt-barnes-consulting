@@ -16,11 +16,11 @@ const SingleTeam = ({ ...props }) => {
               <span>{props.title}</span>
             </div>
             <div className="team__social1">
-              <button type="submit" className="profile-btn">
               <Link to="/teamDetails" state={{ props }}>
-                 View Profile
-                </Link>
-              </button>
+                <button type="submit" className="profile-btn">
+                  View Profile
+                </button>
+              </Link>
             </div>
             <div className="team__social theme-social">
               <ul>

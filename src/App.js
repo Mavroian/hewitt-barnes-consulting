@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollTop from "./components/ScrollTop";
 import About from "./pages/About/About";
-import BlogDetails from "./pages/BlogDetails/BlogDetails";
+// import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import ContactThanks from "./pages/Contact/ContactThanks/ContactThanks";
@@ -35,7 +35,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/teamDetails" element={<TeamDetails />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blogDetails" element={<BlogDetails />} />
+          {/* <Route path="/blogDetails" element={<BlogDetails />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/thanks" element={<ContactThanks />} />
         </Routes>

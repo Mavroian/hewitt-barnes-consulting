@@ -57,7 +57,7 @@ const BlogDetailsArea = () => {
                                     <a href="/#">
                                        <i ><FaFacebookF /></i>
                                        <i ><FaFacebookF /></i>
-                                    </a>
+                                    </a> */}
                                  </li>
                                  <li>
                                     <a href="/#">
@@ -69,7 +69,7 @@ const BlogDetailsArea = () => {
                                     <a href="/#">
                                        <i ><FaVimeoV /> </i>
                                        <i ><FaVimeoV /> </i>
-                                    </a>
+                                    </a> */}
                                  </li>
                               </ul>
                            </div>

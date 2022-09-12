@@ -44,29 +44,29 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="blog__tag mb-30">
                            <span>Tag : </span>
-                           <a href="#">Blog</a>
-                           <a href="#">Creative</a>
-                           <a href="#">Portfolio</a>
-                           <a href="#">Theme</a>
+                           <a href="/#">Blog</a>
+                           <a href="/#">Creative</a>
+                           <a href="/#">Portfolio</a>
+                           <a href="/#">Theme</a>
                         </div>
                         <div className="blog__share d-flex align-items-center mb-30">
                            <span>Share : </span>
                            <div className="blog__social theme-social d-inline-block">
                               <ul>
                                  <li>
-                                    <a href="#">
+                                    <a href="/#">
                                        <i ><FaFacebookF /></i>
                                        <i ><FaFacebookF /></i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#">
+                                    <a href="/#">
                                        <i ><FaTwitter /> </i>
                                        <i ><FaTwitter /> </i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#">
+                                    <a href="/#">
                                        <i ><FaVimeoV /> </i>
                                        <i ><FaVimeoV /> </i>
                                     </a>
@@ -101,7 +101,7 @@ const BlogDetailsArea = () => {
                                              <span className="post-meta">December 26, 2021</span>
                                           </div>
                                           <p>The bee's knees bite your arm off bits and bobs he nicked it gosh gutted mate blimey, old off his nut argy bargy vagabond buggered dropped.</p>
-                                          <a href="#" className="comment-reply"> <i > <BiReply /> </i> Reply</a>
+                                          <a href="/#" className="comment-reply"> <i > <BiReply /> </i> Reply</a>
                                        </div>
                                     </div>
                                  </li>
@@ -116,7 +116,7 @@ const BlogDetailsArea = () => {
                                              <span className="post-meta">December 27, 2021</span>
                                           </div>
                                           <p>Do one say wind up buggered bobby bite your arm off gutted mate, David victoria sponge cup of char chap fanny around.</p>
-                                          <a href="#" className="comment-reply"> <i > <BiReply /> </i> Reply</a>
+                                          <a href="/#" className="comment-reply"> <i > <BiReply /> </i> Reply</a>
                                        </div>
                                     </div>
                                  </li>
@@ -131,7 +131,7 @@ const BlogDetailsArea = () => {
                                              <span className="post-meta">December 28, 2021</span>
                                           </div>
                                           <p>Baking cakes is cobblers wellies William geeza bits and bobs what a plonker it's your round,</p>
-                                          <a href="#" className="comment-reply"> <i > <BiReply /> </i> Reply</a>
+                                          <a href="/#" className="comment-reply"> <i > <BiReply /> </i> Reply</a>
                                        </div>
                                     </div>
                                  </li>
@@ -141,7 +141,7 @@ const BlogDetailsArea = () => {
                         <div className="post-comment-form">
                            <h4>Leave a Reply </h4>
                            <span>Your email address will not be published.</span>
-                           <form action="#">
+                           <form action="/#">
                               <div className="row">
                                  <div className="col-xl-12">
                                     <div className="post-input">

@@ -41,7 +41,7 @@ const HomeHeroArea = () => {
                   homeSliderData.map((slider,index) => {
                      return <div key={index} className={`single-slider slider__height d-flex align-items-center`}>
                         <div style ={{width:'100%',marginTop: '100px', display:'flex', justifyContent: 'center'}}>
-                           <img  style={{width:"100%"}} src="https://hewitt-barnes-consulting-space.fra1.cdn.digitaloceanspaces.com/hbc_backround.gif"/>
+                           <img  style={{width:"100%"}} src="https://hewitt-barnes-consulting-space.fra1.cdn.digitaloceanspaces.com/hbc_backround.gif" alt="background gif"/>
                         </div>
                         <div className="slider__shape">
                            <img className="shape triangle"  src="assets/img/icon/slider/triangle.png" alt="triangle" />

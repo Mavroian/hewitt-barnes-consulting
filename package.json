@@ -21,7 +21,7 @@
     "react-image-lightbox": "^5.1.4",
     "react-modal-video": "^1.2.8",
     "react-router-dom": "6",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.28.1",
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.49.7",
@@ -51,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.5"
+}
 }

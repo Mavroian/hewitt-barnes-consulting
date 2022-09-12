@@ -43,10 +43,10 @@ const ServicesDetailsArea = () => {
                                </div>
                             </div>
                             <div className="services__action grey-bg-18 mb-15">
-                            <a href="#"><i > <FiDownload/> </i>Download docs</a>
+                            <a href="/#"><i > <FiDownload/> </i>Download docs</a>
                             </div>
                             <div className="services__action grey-bg-18 mb-15">
-                            <a href="#"><i > <AiOutlineFilePdf/> </i>Characteristics</a>
+                            <a href="/#"><i > <AiOutlineFilePdf/> </i>Characteristics</a>
                             </div>
                          </div>
                       </div>

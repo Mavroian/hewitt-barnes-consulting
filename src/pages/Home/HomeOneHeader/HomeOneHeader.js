@@ -1,8 +1,5 @@
 import { useState } from "react";
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaPinterestP,
   FaPhoneAlt,
   FaEnvelope,
   FaLinkedinIn,

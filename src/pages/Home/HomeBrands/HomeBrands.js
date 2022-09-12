@@ -99,6 +99,7 @@ const HomeBrands = () => {
                 <SingleBrandItem img="2" />
                 <SingleBrandItem img="3" />
                 <SingleBrandItem img="4" />
+                <SingleBrandItem img="5" />
               </Slider>
             </SliderWrapper>
           </div>

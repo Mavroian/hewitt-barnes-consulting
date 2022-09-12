@@ -1,6 +1,6 @@
 import React from "react";
 import { BiMap } from "react-icons/bi";
-import { FaEnvelope, FaPhoneAlt, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const TeamDetailsArea = ({ member }) => {

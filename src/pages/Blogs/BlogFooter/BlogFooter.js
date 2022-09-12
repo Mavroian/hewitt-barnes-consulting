@@ -24,19 +24,19 @@ const BlogFooter = () => {
                                  <div className="footer__social footer__social-2 theme-social mb-30">
                                     <ul>
                                        <li>
-                                          <a href="#">
+                                          <a href="/#">
                                              <i ><FaFacebookF /></i>
                                              <i ><FaFacebookF /></i>
                                           </a>
                                        </li>
                                        <li>
-                                          <a href="#">
+                                          <a href="/#">
                                              <i ><FaTwitter /> </i>
                                              <i ><FaTwitter /> </i>
                                           </a>
                                        </li>
                                        <li>
-                                          <a href="#">
+                                          <a href="/#">
                                              <i ><FaVimeoV /> </i>
                                              <i ><FaVimeoV /> </i>
                                           </a>
@@ -54,11 +54,11 @@ const BlogFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links footer__links-2">
                                     <ul>
-                                       <li><a href="#">About Us</a></li>
-                                       <li><a href="#">Testimonials</a></li>
-                                       <li><a href="#">Consulting</a></li>
-                                       <li><a href="#">Partners</a></li>
-                                       <li><a href="#">Contact Us</a></li>
+                                       <li><a href="/#">About Us</a></li>
+                                       <li><a href="/#">Testimonials</a></li>
+                                       <li><a href="/#">Consulting</a></li>
+                                       <li><a href="/#">Partners</a></li>
+                                       <li><a href="/#">Contact Us</a></li>
                                     </ul>
                                  </div>
                               </div>
@@ -72,12 +72,12 @@ const BlogFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links footer__links-2">
                                     <ul>
-                                       <li><a href="#">Customers</a></li>
-                                       <li><a href="#">Pricing</a></li>
-                                       <li><a href="#">News</a></li>
-                                       <li><a href="#">Learning Center</a></li>
-                                       <li><a href="#">Help desk</a></li>
-                                       <li><a href="#">Support</a></li>
+                                       <li><a href="/#">Customers</a></li>
+                                       <li><a href="/#">Pricing</a></li>
+                                       <li><a href="/#">News</a></li>
+                                       <li><a href="/#">Learning Center</a></li>
+                                       <li><a href="/#">Help desk</a></li>
+                                       <li><a href="/#">Support</a></li>
                                     </ul>
                                  </div>
                               </div>
@@ -91,13 +91,13 @@ const BlogFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links footer__links-2">
                                     <ul>
-                                       <li><a href="#">UI Design</a></li>
-                                       <li><a href="#">Agencies</a></li>
-                                       <li><a href="#">Digital Marketing</a></li>
-                                       <li><a href="#">SEO for Business</a></li>
-                                       <li><a href="#">Enterprise</a></li>
-                                       <li><a href="#">Publishers</a></li>
-                                       <li><a href="#"></a></li>
+                                       <li><a href="/#">UI Design</a></li>
+                                       <li><a href="/#">Agencies</a></li>
+                                       <li><a href="/#">Digital Marketing</a></li>
+                                       <li><a href="/#">SEO for Business</a></li>
+                                       <li><a href="/#">Enterprise</a></li>
+                                       <li><a href="/#">Publishers</a></li>
+                                
                                     </ul>
                                  </div>
                               </div>

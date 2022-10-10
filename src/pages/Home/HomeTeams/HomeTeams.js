@@ -1,6 +1,6 @@
 import React from "react";
 import SingleTeam from "../../../components/SingleTeam/SingleTeam";
-import { FaPlus } from "react-icons/fa";
+
 import { CgArrowLongRight } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
@@ -45,7 +45,7 @@ const HomeTeams = () => {
               image="3"
               name="Mr David Griffiths"
               title="Medical Advisor"
-              description="Mr Griffiths is a Senior Consultant Gynaecologist - His NHS practice is at the Great Western Hospitals NHS Foundation Trust and he has a wide-reaching private practice, with clinics in London, Cirencester and Cardiff. Qualifying in 1987, Mr Griffiths completed his formative training in the Midlands. He has worked as a clinical fellow in reproductive medicine at St James's University Hospital, Leeds and in 1994 was awarded a Fellowship to Harvard Medical School, Boston, USA. Before taking up his NHS Consultant post he also worked at the Center for Endometriosis Care, Atlanta, Georgia and various hospitals in New Zealand.Mr Griffiths was a trainer in advanced laparoscopic surgery for The University of Surrey and has taught many of the present consultants. He is currently the principal trainer for benign gynaecological surgery for the O&G trainees in the South West Deanery. Mr Griffiths has an advisory role with HBC, with a particular focus on performance management for efficiency in surgery."
+              description="Mr Griffiths is a Senior Consultant Gynaecologist - His NHS practice is at the Great Western Hospitals NHS Foundation Trust and he has a wide-reaching private practice, with clinics in London, Cirencester and Cardiff. Qualifying in 1987, Mr Griffiths completed his formative training in the Midlands. He has worked as a clinical fellow in reproductive medicine at St James's University Hospital, Leeds and in 1994 was awarded a Fellowship to Harvard Medical School, Boston, USA. Before taking up his NHS Consultant post he also worked at the Center for Endometriosis Care, Atlanta, Georgia and various hospitals in New Zealand. Mr Griffiths was a trainer in advanced laparoscopic surgery for The University of Surrey and has taught many of the present consultants. He is currently the principal trainer for benign gynaecological surgery for the O&G trainees in the South West Deanery. Mr Griffiths has an advisory role with HBC, with a particular focus on performance management for efficiency in surgery."
             />
             <SingleTeam
               image="4"
@@ -60,7 +60,7 @@ const HomeTeams = () => {
               description="Adejare is a qualified Barrister and Sustainability Entrepreneur. After being called to the bar in 2003, his passion for sustainability led Adejare to create The Wholeleaf Company in 2007. Wholeleaf uses naturally fallen palm leaves to make compostable table and kitchenware. Their Wholeleaf Project ensures that underprivileged people in developing countries have access to fair, ethical work. With 15 years of sustainability experience, Adejare advises HBC on sustainable products and supply chains, giving us expertise in assessing the suitability of new medical devices for the UK healthcare market."
             />
 
-            <div className="col-xl-3 col-lg-4 col-md-6">
+            {/* <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team__item team__item-add p-relative text-center fix mb-30">
                 <div className="team__add">
                   <Link to="/team">
@@ -71,7 +71,7 @@ const HomeTeams = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

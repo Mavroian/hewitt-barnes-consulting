@@ -100,6 +100,8 @@ const HomeBrands = () => {
                 <SingleBrandItem img="3" />
                 <SingleBrandItem img="4" />
                 <SingleBrandItem img="5" />
+                <SingleBrandItem img="6" />
+                <SingleBrandItem img="7" />
               </Slider>
             </SliderWrapper>
           </div>

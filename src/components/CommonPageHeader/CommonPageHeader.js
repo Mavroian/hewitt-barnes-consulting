@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,  useLocation} from 'react-router-dom';
 
 const CommonPageHeader = ({ title, subtitle}) => {
+   const location = useLocation();
    return (
       <>
          <section className="page__title p-relative d-flex align-items-center fix" style={{ background: `url(assets/img/page-title/page-title-1.jpg)`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
@@ -20,6 +21,9 @@ const CommonPageHeader = ({ title, subtitle}) => {
                         <nav aria-label="breadcrumb">
                            <ol className="breadcrumb">
                               <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                              {
+                                 location.pathname === "/teamDetails" ? (<li className="breadcrumb-item active"><Link to="/team">Team</Link></li>) : null
+                              }
                               <li className="breadcrumb-item active" aria-current="page">{subtitle}</li>
                            </ol>
                         </nav>

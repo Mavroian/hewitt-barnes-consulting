@@ -6,7 +6,7 @@ const HomeTwoTestimonial = () => {
   // slick setting
   const settings = {
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     dots: true,
     arrows: false,
     infinite: true,
@@ -56,7 +56,7 @@ const HomeTwoTestimonial = () => {
                   <span className="white-color">Testimonials</span>
                   <h2 className="white-color">Featured Client Success Story</h2>
                 </div>
-              <SliderWrapper>
+              <SliderWrapper time={10.5}>
                 <Slider className="testimonial__slider pb-70" {...settings}>
                   {testimonialData.map((testimonial, index) => {
                     return (

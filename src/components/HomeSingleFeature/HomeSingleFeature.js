@@ -23,7 +23,7 @@ const HomeSingleFeature = ({icon,title, description}) => {
                <div className="card__side card__side--back card__side--back-1">
                   <div className="card__cta">
                      <div className="card__price-box">
-                      <p style={{color:"white", fontSize: ".8em"}}>  {description}</p>
+                      <p>  {description}</p>
                      </div>
                   </div>
                </div>

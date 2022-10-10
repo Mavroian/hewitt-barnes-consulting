@@ -18,8 +18,9 @@
         margin-bottom: 90px;
         text-align: center;
         & img{
-            width: inherit !important;
             display: inline-block !important;
+            height: 100%;
+            width: 70%;
         }
     }
     &__shape{

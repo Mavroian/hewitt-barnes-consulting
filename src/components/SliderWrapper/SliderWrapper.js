@@ -311,7 +311,7 @@ const SliderWrapper = styled("div")`
 
     .loading {
       height: 8px;
-      animation: loading 5s ease-in;
+      animation: loading ${props => props.time? props.time : 3}s ease-in;
       background-image: linear-gradient(270deg, #4fd15a, #03ac0e);
       display: inline-block;
       position: absolute;

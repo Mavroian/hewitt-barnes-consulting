@@ -55,7 +55,8 @@ const HomeHeroArea = () => {
                                  <div className="slider__content">
                                     {/* <span>We’ve added a new exciting feature in v2.0.</span> */}
                                     <div className="slider__title_header">
-                                       <h1>Improve Patient Outcomes with <span>HBC</span></h1>
+                                       <h1>Improve Patient Outcomes with <span>HBC - </span> <span style={{color:"white", marginBottom: "30px", fontSize:".8em"}}>Seamless medical device integration</span></h1>
+                                       
                                     </div> 
                                     
                                     <div className="slider__btn">

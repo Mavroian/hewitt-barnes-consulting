@@ -361,7 +361,20 @@ $color-tertiary-dark:#5643fa;
     }
     &__price-box {
       text-align: center;
-      color: $color-white;
+     
+      p {
+        color: $color-white;
+        font-size: .8em;
+        @media #{$md}{
+          font-size: .9em ;
+        }
+        @media #{$sm}{
+          font-size: .88em ;
+        }
+        @media #{$xs}{
+          font-size: 1em;
+        }
+      }
     }
     &__price-only {
       font-size: 1.4rem;

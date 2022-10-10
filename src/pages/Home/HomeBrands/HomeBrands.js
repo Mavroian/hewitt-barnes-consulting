@@ -93,7 +93,7 @@ const HomeBrands = () => {
             </div>
           </div>
           <div className="row">
-            <SliderWrapper>
+            <SliderWrapper time={5}>
               <Slider className="brand-active" {...settings}>
                 <SingleBrandItem img="1" />
                 <SingleBrandItem img="2" />

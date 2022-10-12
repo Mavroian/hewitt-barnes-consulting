@@ -18,7 +18,7 @@ import HomeTwoTestimonial from "../HomeTwo/HomeTwoTestimonial/HomeTwoTestimonial
 const Home = () => {
   return (
     <>
-      <PageHelmet pageTitle="Home Page" />
+      <PageHelmet pageTitle="Hewitt-Barnes Consulting" />
       <HomeOneHeader />
       <HomeHeroSlider />
       <HomeFeatures />

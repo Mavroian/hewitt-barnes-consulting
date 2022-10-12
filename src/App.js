@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollTop from "./components/ScrollTop";
-import About from "./pages/About/About";
+// import About from "./pages/About/About";
 // import BlogDetails from "./pages/BlogDetails/BlogDetails";
-import Blogs from "./pages/Blogs/Blogs";
+// import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import ContactThanks from "./pages/Contact/ContactThanks/ContactThanks";
 // import HeaderStyleFive from "./pages/HeaderStyleFive/HeaderStyleFive";
@@ -12,12 +12,13 @@ import ContactThanks from "./pages/Contact/ContactThanks/ContactThanks";
 import Home from "./pages/Home/Home";
 // import HomeThree from "./pages/HomeThree/HomeThree";
 // import HomeTwo from "./pages/HomeTwo/HomeTwo";
-import Portfolio from "./pages/Portfolio/Portfolio";
-import PortfolioDetails from "./pages/PortfolioDetails/PortfolioDetails";
-import Services from "./pages/Services/Services";
-import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
+// import Portfolio from "./pages/Portfolio/Portfolio";
+// import PortfolioDetails from "./pages/PortfolioDetails/PortfolioDetails";
+// import Services from "./pages/Services/Services";
+// import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -27,17 +28,18 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/servicesDetails" element={<ServicesDetails />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/portfolioDetails" element={<PortfolioDetails />} />
+          <Route path="/portfolioDetails" element={<PortfolioDetails />} /> */}
           <Route path="/team" element={<Team />} />
           <Route path="/teamDetails" element={<TeamDetails />} />
-          <Route path="/blogs" element={<Blogs />} />
+          {/* <Route path="/blogs" element={<Blogs />} /> */}
           {/* <Route path="/blogDetails" element={<BlogDetails />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/thanks" element={<ContactThanks />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </>

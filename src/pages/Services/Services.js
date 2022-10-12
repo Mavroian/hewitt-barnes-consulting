@@ -11,7 +11,7 @@ import HomeThreeSecondServices from '../HomeThree/HomeThreeSecondServices/HomeTh
 const Services = () => {
    return (
       <>
-         <PageHelmet pageTitle="Services Page" />
+         <PageHelmet pageTitle="HBC - Services Page" />
 
          <HomeOneHeader/>
          <CommonPageHeader title="Services" subtitle="Services" />

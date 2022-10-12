@@ -11,7 +11,7 @@ import HomeTwoFaq from '../HomeTwo/HomeTwoFaq/HomeTwoFaq';
 const About = () => {
    return (
       <>
-         <PageHelmet pageTitle="About Page" />
+         <PageHelmet pageTitle="HBC - About Page" />
 
          <HomeOneHeader/>
          <CommonPageHeader title="About Us" subtitle="About" />

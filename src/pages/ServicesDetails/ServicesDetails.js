@@ -8,7 +8,7 @@ import ServicesDetailsHeader from './ServicesDetailsHeader/ServicesDetailsHeader
 const ServicesDetails = () => {
    return (
       <>
-         <PageHelmet pageTitle="Services Details Page" />
+         <PageHelmet pageTitle="HBC - Services Details Page" />
 
          <HomeOneHeader />
          <ServicesDetailsHeader />

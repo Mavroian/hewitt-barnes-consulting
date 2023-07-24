@@ -57,7 +57,7 @@ const HomeTeams = () => {
               name="Eugene Warren"
               title="Medtech Consultant"
               description={[
-                "Eugene has over 30 years of experience in the medical devices industry. Having held management positions in companies such as Smith & Nephew and Zimmer Biomet, Eugene has spent the last 11 years as Managing Director of Accord Medical Ltd. Eugene brings not only an expert understanding of the clinical, operational, and financial workings of the UK healthcare system but also a vast network of clinicians, across multiple specialties, to broaden HBC’s access to Key Opinion Leaders.",
+                "Eugene has over 30 years of experience in the medical devices industry.","Having held management positions in companies such as Smith & Nephew and Zimmer Biomet, Eugene has spent the last 11 years as Managing Director of Accord Medical Ltd. Eugene brings not only an expert understanding of the clinical, operational, and financial workings of the UK healthcare system but also a vast network of clinicians, across multiple specialties, to broaden HBC’s access to Key Opinion Leaders.",
               ]}
             />
             <SingleTeam

@@ -1,9 +1,27 @@
 import Slider from "react-slick";
 import SingleBrandItem from "../../../components/SingleBrandItem/SingleBrandItem";
 import SliderWrapper from "../../../components/SliderWrapper/SliderWrapper";
+import { useEffect } from "react";
 
 const HomeBrands = () => {
   // slick setting
+  useEffect(() => {
+    // Check if there's a hash in the URL (e.g., www.example.com/#our_clients)
+    const hash = window.location.hash;
+
+    // If there's a hash and it matches the id of a section, scroll to that section
+     setTimeout(() => {
+      const targetSection = document.getElementById(hash.replace("#", ""));
+      if (targetSection) {
+        console.log(targetSection);
+        const targetY = targetSection.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({
+          top: targetY,
+          behavior: "smooth",
+        });
+      }
+    }, 100);
+  }, []);
   const settings = {
     autoplay: true,
     autoplaySpeed: 5000,
@@ -45,7 +63,7 @@ const HomeBrands = () => {
   };
   return (
     <>
-      <section className="brand__area p-relative pt-160 pb-50">
+      <section id="our_clients" className="brand__area p-relative pt-160 pb-50">
         <div className="brand__shape">
           <img
             className="square"
@@ -72,7 +90,7 @@ const HomeBrands = () => {
           <div className="row">
             <div className="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1">
               <div className="section__title mb-30">
-                <span>Our Clients</span>
+                <span >Our Clients</span>
               </div>
             </div>
             <div className="col-xl-6 col-lg-7">

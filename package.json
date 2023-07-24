@@ -21,6 +21,7 @@
     "react-image-lightbox": "^5.1.4",
     "react-modal-video": "^1.2.8",
     "react-router-dom": "6",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.28.1",
     "react-visibility-sensor": "^5.1.1",
@@ -54,5 +55,5 @@
   },
   "resolutions": {
     "autoprefixer": "10.4.5"
-}
+  }
 }

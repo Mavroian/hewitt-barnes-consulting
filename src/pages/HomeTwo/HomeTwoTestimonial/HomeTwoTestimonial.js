@@ -1,9 +1,35 @@
 import React from "react";
 import Slider from "react-slick";
 import SliderWrapper from "../../../components/SliderWrapper/SliderWrapper";
+import { useEffect } from "react";
 
 const HomeTwoTestimonial = () => {
   // slick setting
+    
+  useEffect(() => {
+    const handleHashChange = () => {
+      window.location.reload();
+      const hash = window.location.hash;
+      if (hash) {
+        const targetSection = document.getElementById(hash.replace("#", ""));
+        if (targetSection) {
+          const targetY = targetSection.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({
+            top: targetY,
+            behavior: "smooth",
+          });
+        }
+      }
+    };
+
+    // Attach the hash change listener
+    window.addEventListener("hashchange", handleHashChange);
+
+    // Clean up the listener on component unmount
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, []);
   const settings = {
     autoplay: true,
     autoplaySpeed: 10000,
@@ -47,7 +73,7 @@ const HomeTwoTestimonial = () => {
 
   return (
     <>
-      <section className="testimoinal__area gradient-bg">
+      <section className="testimoinal__area gradient-bg" id="testimonial_section">
         <div className="container">
           <div className="row">
             <div className="col-xl-5 col-lg-6">

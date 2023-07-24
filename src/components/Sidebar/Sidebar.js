@@ -4,8 +4,19 @@ import { NavLink } from "react-router-dom";
 // import Collapsible from 'react-collapsible';
 import { BiMap } from "react-icons/bi";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { HashLink } from 'react-router-hash-link';
+
+
 
 const Sidebar = ({ show, handleClose }) => {
+  const handleReload = () => {
+   
+    handleClose();
+    setTimeout(() => {
+      window.location.reload();
+    }, 200);
+  
+  };
   return (
     <>
       <div>
@@ -67,7 +78,10 @@ const Sidebar = ({ show, handleClose }) => {
                       aria-labelledby="menu-tab"
                     >
                       <div className="side_navBar">
-                        <NavLink to="/home">Home</NavLink>
+                        <div className="about iconAdd">
+                          <NavLink to="/home">Home</NavLink>
+                        </div>
+                       
                         {/* <Collapsible trigger={<NavLink to="/home">Home</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}> */}
                         {/* <ul className="sidebar_sub_menu text-white">
@@ -97,7 +111,14 @@ const Sidebar = ({ show, handleClose }) => {
                         <div className="about iconAdd">
                           <NavLink to="/team">Team </NavLink>
                         </div>
-
+                        <div className="about iconAdd">
+                        <HashLink smooth to="/home#our_clients" onClick={handleReload}>Our Clients</HashLink>
+                        </div>
+                        <div className="about iconAdd">
+                          <HashLink smooth to="/home#testimonial_section" onClick={handleReload}>
+                            Testimonials
+                          </HashLink>
+                        </div>
                         {/* <Collapsible trigger={<NavLink to="/services">Services</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                           <ul className="sidebar_sub_menu submenu text-white">

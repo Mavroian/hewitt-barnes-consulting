@@ -7,7 +7,7 @@ const PageHelmet = ({ pageTitle }) => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{pageTitle} || HBC Consulting </title>
-        <meta name="description" content="HBC - Improving patient outcome using seamless medical device integration" />
+        <meta name="description" content="HBC - Improving patient outcome using MedTech & Digital Health Integration" />
         <meta property="og:title" content="Hewitt Barnes Consulting"/>
         <meta property="og:site_name" content="www.hewitt-barnes.com" />
         <meta property="og:url" content="https://www.hewitt-barnes.com" />

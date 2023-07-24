@@ -117,7 +117,7 @@ const TeamDetailsArea = ({ member }) => {
             <div className="col-xl-10 offset-xl-1">
               <div className="team__details-info mt-60">
                 <h4>Information</h4>
-                {description.map((paragraph, index) => {
+                {description.slice(1, description.length).map((paragraph, index) => {
               if (hasUrl && /https?:\/\/\S+/.test(paragraph)) {
                 // If the paragraph contains a URL, render it as an anchor tag
                 return (

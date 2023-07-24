@@ -43,7 +43,8 @@ const TeamArea = () => {
               name="Eugene Warren"
               title="Medtech Consultant"
               description={[
-                "Eugene has over 30 years of experience in the medical devices industry. Having held management positions in companies such as Smith & Nephew and Zimmer Biomet, Eugene has spent the last 11 years as Managing Director of Accord Medical Ltd. Eugene brings not only an expert understanding of the clinical, operational, and financial workings of the UK healthcare system but also a vast network of clinicians, across multiple specialties, to broaden HBC’s access to Key Opinion Leaders.",
+                "Eugene has over 30 years of experience in the medical devices industry.",
+                "Having held management positions in companies such as Smith & Nephew and Zimmer Biomet, Eugene has spent the last 11 years as Managing Director of Accord Medical Ltd. Eugene brings not only an expert understanding of the clinical, operational, and financial workings of the UK healthcare system but also a vast network of clinicians, across multiple specialties, to broaden HBC’s access to Key Opinion Leaders.",
               ]}
             />
             <SingleTeam
@@ -51,7 +52,8 @@ const TeamArea = () => {
               name="Adejare Doherty"
               title="Sustainability Advisor"
               description={[
-                "Adejare is a qualified Barrister and Sustainability Entrepreneur. After being called to the bar in 2003, his passion for sustainability led Adejare to create The Wholeleaf Company in 2007. Wholeleaf uses naturally fallen palm leaves to make compostable table and kitchenware. Their Wholeleaf Project ensures that underprivileged people in developing countries have access to fair, ethical work. With 15 years of sustainability experience, Adejare advises HBC on sustainable products and supply chains, giving us expertise in assessing the suitability of new medical devices for the UK healthcare market.",
+                "Adejare is a qualified Barrister and Sustainability Entrepreneur. ",
+                "After being called to the bar in 2003, his passion for sustainability led Adejare to create The Wholeleaf Company in 2007. Wholeleaf uses naturally fallen palm leaves to make compostable table and kitchenware. Their Wholeleaf Project ensures that underprivileged people in developing countries have access to fair, ethical work. With 15 years of sustainability experience, Adejare advises HBC on sustainable products and supply chains, giving us expertise in assessing the suitability of new medical devices for the UK healthcare market.",
               ]}
             />
             <SingleTeam

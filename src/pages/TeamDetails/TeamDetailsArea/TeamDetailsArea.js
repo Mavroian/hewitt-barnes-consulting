@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 
 const TeamDetailsArea = ({ member }) => {
   const { name, image, title, description } = member;
-  const descrParagraps = description.split(".");
+  console.log(description);
+  const firstParagraph = description[0];
+  const hasUrl = /https?:\/\/\S+/.test(description.join(" ")); 
 
   return (
     <>
@@ -25,7 +27,7 @@ const TeamDetailsArea = ({ member }) => {
                 <div className="team__details-content pt-105">
                   <span>{title}</span>
                   <h3>{name}</h3>
-                  <p>{descrParagraps[0]}.</p>
+                  <p>{firstParagraph}</p>
                   <div className="team__details-contact mb-45">
                     <ul>
                       <li>
@@ -115,7 +117,25 @@ const TeamDetailsArea = ({ member }) => {
             <div className="col-xl-10 offset-xl-1">
               <div className="team__details-info mt-60">
                 <h4>Information</h4>
-                <p>{descrParagraps.slice(1, -1).join(".")}.</p>
+                {description.map((paragraph, index) => {
+              if (hasUrl && /https?:\/\/\S+/.test(paragraph)) {
+                // If the paragraph contains a URL, render it as an anchor tag
+                return (
+                  <p key={index}>
+                    <a href={paragraph} target="_blank" rel="noopener noreferrer" style={{
+                        textDecoration: "underline", // Underline the link
+                        color: "#007bff", // Set the link color (blue in this example)
+                        fontStyle: "italic", // Italicize the link
+                      }}>
+                      {paragraph}
+                    </a>
+                  </p>
+                );
+              } else {
+                // Otherwise, render the paragraph as regular text
+                return <p key={index}>{paragraph}</p>;
+              }
+            })}
 
                 <Link to="/contact" className="z-btn mt-10">
                   Appointment

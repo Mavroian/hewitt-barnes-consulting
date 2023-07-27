@@ -4,19 +4,10 @@ import { NavLink } from "react-router-dom";
 // import Collapsible from 'react-collapsible';
 import { BiMap } from "react-icons/bi";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
-import { HashLink } from 'react-router-hash-link';
-
+import { HashLink } from "react-router-hash-link";
 
 
 const Sidebar = ({ show, handleClose }) => {
-  const handleReload = () => {
-   
-    handleClose();
-    setTimeout(() => {
-      window.location.reload();
-    }, 200);
-  
-  };
   return (
     <>
       <div>
@@ -112,10 +103,10 @@ const Sidebar = ({ show, handleClose }) => {
                           <NavLink to="/team">Team </NavLink>
                         </div>
                         <div className="about iconAdd">
-                        <HashLink smooth to="/home#our_clients" onClick={handleReload}>Our Clients</HashLink>
+                        <HashLink smooth to="/home#our_clients" onClick={handleClose}>Our Clients</HashLink>
                         </div>
                         <div className="about iconAdd">
-                          <HashLink smooth to="/home#testimonial_section" onClick={handleReload}>
+                          <HashLink smooth to="/home#testimonial_section" onClick={handleClose}>
                             Testimonials
                           </HashLink>
                         </div>

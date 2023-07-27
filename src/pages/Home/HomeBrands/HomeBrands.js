@@ -1,27 +1,10 @@
 import Slider from "react-slick";
 import SingleBrandItem from "../../../components/SingleBrandItem/SingleBrandItem";
 import SliderWrapper from "../../../components/SliderWrapper/SliderWrapper";
-import { useEffect } from "react";
 
+import ScrollToHashElement from "../../../components/Sidebar/ScrollToHash";
 const HomeBrands = () => {
-  // slick setting
-  useEffect(() => {
-    // Check if there's a hash in the URL (e.g., www.example.com/#our_clients)
-    const hash = window.location.hash;
-
-    // If there's a hash and it matches the id of a section, scroll to that section
-     setTimeout(() => {
-      const targetSection = document.getElementById(hash.replace("#", ""));
-      if (targetSection) {
-        console.log(targetSection);
-        const targetY = targetSection.getBoundingClientRect().top + window.pageYOffset;
-        window.scrollTo({
-          top: targetY,
-          behavior: "smooth",
-        });
-      }
-    }, 100);
-  }, []);
+  
   const settings = {
     autoplay: true,
     autoplaySpeed: 5000,
@@ -63,7 +46,10 @@ const HomeBrands = () => {
   };
   return (
     <>
+      
       <section id="our_clients" className="brand__area p-relative pt-160 pb-50">
+
+                <ScrollToHashElement />
         <div className="brand__shape">
           <img
             className="square"

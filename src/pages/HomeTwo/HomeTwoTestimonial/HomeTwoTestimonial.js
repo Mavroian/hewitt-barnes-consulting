@@ -1,35 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import SliderWrapper from "../../../components/SliderWrapper/SliderWrapper";
-import { useEffect } from "react";
-
+import ScrollToHashElement from "../../../components/Sidebar/ScrollToHash";
 const HomeTwoTestimonial = () => {
-  // slick setting
-    
-  useEffect(() => {
-    const handleHashChange = () => {
-      window.location.reload();
-      const hash = window.location.hash;
-      if (hash) {
-        const targetSection = document.getElementById(hash.replace("#", ""));
-        if (targetSection) {
-          const targetY = targetSection.getBoundingClientRect().top + window.pageYOffset;
-          window.scrollTo({
-            top: targetY,
-            behavior: "smooth",
-          });
-        }
-      }
-    };
-
-    // Attach the hash change listener
-    window.addEventListener("hashchange", handleHashChange);
-
-    // Clean up the listener on component unmount
-    return () => {
-      window.removeEventListener("hashchange", handleHashChange);
-    };
-  }, []);
+  
   const settings = {
     autoplay: true,
     autoplaySpeed: 10000,
@@ -82,6 +56,7 @@ const HomeTwoTestimonial = () => {
                   <span className="white-color">Testimonials</span>
                   <h2 className="white-color">Featured Client Success Story</h2>
                 </div>
+                <ScrollToHashElement />
               <SliderWrapper time={10.5}>
                 <Slider className="testimonial__slider pb-70" {...settings}>
                   {testimonialData.map((testimonial, index) => {

@@ -80,7 +80,7 @@ const HomeTeams = () => {
                 "“This acquisition will be a significant accelerant as we pivot toward growth and modernize the foundation of our company with an entrepreneurial mindset that puts technology at the forefront of everything we do,” said Martin Waters, CEO, Victoria’s Secret & Co., in a statement. “In partnering with the incredible team at Adore Me, we will move to the future much faster.”",
                 "https://www.cnbc.com/2022/11/01/victorias-secret-to-buy-online-startup-adore-me-for-400-million.html",
                 "Christi is a father of two super-energetic boys, he loves to read, learn, travel, train and live enjoyable experiences.",
-                "Cristi now joins HBC to help our NHS clients maximise the adoption of beneficial Digital Health systems through our innovative proprietary Change Management Process.",
+                "Cristi now joins HBC to help our NHS clients maximise the adoption of beneficial Digital Health systems through our innovative proprietary Coaching Change Management Process.",
               ]}
             />
 
